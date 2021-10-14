@@ -7,15 +7,20 @@
 	outline: none;
 }
 
+
 header{
-	background: #000;
+	background: rgb(120, 238, 169);
 	color: #fff;
 	height: 50px;
 }
+
+
 .header_left{
 width: 50%;
 float: left;
 }
+
+
 .header_right{
 width: 50%;	
 float: right;

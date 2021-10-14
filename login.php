@@ -1,58 +1,59 @@
 <?php
 
-// archiu confiduracio
+// archiu configuracio
 require_once "config.php";
 
-// Define variables and initialize with empty values
+
 $username = $password = "";
 $username_err = $password_err = "";
 
-// Processing form data when form is submitted
+
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-    // Check if username is empty
+    // si el usuario esta vacio
     if(empty($_POST["username"])){
         $username_err = "Debe escribir su email.";
     } else{
         $username = trim($_POST["username"]);
     }
     
-    // Check if password is empty
+    // si la contraseña esta vascia
     if(empty($_POST["password"])){
         $password_err = "Es necesario un password.";
     } else{
         $password = trim($_POST["password"]);
     }
     
-    // Validate credentials
+    // validar
     if(empty($username_err) && empty($password_err)){
-        // Prepare a select statement
+        
         $sql = "SELECT id, username, password,token FROM users WHERE username = ?";
         
         if($stmt = mysqli_prepare($link, $sql)){
-            // Bind variables to the prepared statement as parameters
+           
             mysqli_stmt_bind_param($stmt, "s", $param_username);
             
-            // Set parameters
+            // parametros
             $param_username = $username;
             
-            // Attempt to execute the prepared statement
+            
             if(mysqli_stmt_execute($stmt)){
-                // Store result
+                // resultado
                 mysqli_stmt_store_result($stmt);
                 
-                // Check if username exists, if yes then verify password
+               
                 if(mysqli_stmt_num_rows($stmt) == 1){                    
-                    // Bind result variables
+                   
+                    
                     mysqli_stmt_bind_result($stmt, $id, $username, $db_password,$usertoken);
                     if(mysqli_stmt_fetch($stmt)){
-                        //echo $id. $username. $db_password;
+                        
                         if($password == base64_decode($db_password)){
                             $caducidad = $year = 60 * 60 * 24 * 365 + time();
                             setcookie('userCookie', $id, $caducidad,'/' );
                             setcookie('userToken', $usertoken, $caducidad,'/' );
 
-                            // redireccioanr
+                            // redireccioanar
                             header("location: index.php");
                         }else{
                             

@@ -3,7 +3,7 @@ require_once "config.php";
 require_once "functions.php";
 
 
-// Check if the user is logged in, if not then redirect him to login page
+
 if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
    header("location: login.php");
     exit;
@@ -11,8 +11,7 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 }
     $user_id = $_COOKIE["userCookie"];
     $token = $_COOKIE["userToken"];
-    //-----si manipulan cookies, las borramos y redireccionamos a login-----------
-//comprobarToken($user_id, $token);
+    
 
 
 ?>
