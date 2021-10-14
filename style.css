@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+header{
+	background: #000;
+	color: #fff;
+	height: 50px;
+}
+.header_left{
+width: 50%;
+float: left;
+}
+.header_right{
+width: 50%;	
+float: right;
+}
