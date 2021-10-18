@@ -21,8 +21,8 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="css/bootstrap431/css/bootstrap.min.css"> 
-    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap431/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.min.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -41,7 +41,7 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 
     <p>
       
-        <a href="logout.php" class="btn btn-danger">Cerrar sesión en su cuenta</a>
+        <a href="logout.php" class="btn btn-danger">Cerrar sesión</a>
     </p>
 
 
