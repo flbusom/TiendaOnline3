@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     // validar usuario
     if(empty($_POST["username"])){
-        $username_err = "Please enter a email.";
+        $username_err = "Porfavor escriba un email.";
     } else{
         // Preparar a select statement
         $sql = "SELECT id FROM users WHERE username = ?";
@@ -30,12 +30,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 mysqli_stmt_store_result($stmt);
                 
                 if(mysqli_stmt_num_rows($stmt) == 1){
-                    $username_err = "This username is already taken.";
+                    $username_err = "Este usuario ya está en uso.";
                 } else{
                     $username = trim($_POST["username"]);
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "Oops! Algo va mal. Porfavor intentalo más tarde.";
             }
         }
 
@@ -45,9 +45,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     // validar contraseña
     if(empty($_POST["password"])){
-        $password_err = "Please enter a password.";     
+        $password_err = "Porfavor escriba una contraseña.";     
     } elseif(strlen(trim($_POST["password"])) < 6){
-        $password_err = "Password must have atleast 6 characters.";
+        $password_err = "La contraseña tiene que tener almenos 6 caracteres.";
     } else{
         $password = trim($_POST["password"]);
     }
