@@ -9,7 +9,7 @@
 
 
 header{
-	background: rgb(148, 233, 248);
+	background: rgb(174, 252, 180);
 	color: #fff;
 	height: 50px;
 }
@@ -25,3 +25,28 @@ float: left;
 width: 50%;	
 float: right;
 }
+
+
+
+
+
+#btncerrar {
+
+	text-align: right;
+}
+
+
+#btn-salirsession {
+    background-color: #e02f0f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
