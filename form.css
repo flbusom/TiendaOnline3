@@ -4,13 +4,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background: rgb(174, 252, 180);
+background: rgb(201, 218, 203);
 }
 
 
 .wrapper{
 padding: 20px;
-background:#618653;
+background:#f3eea4;
 width: 350px;
 min-height: 410px;
 display: inline-grid;
