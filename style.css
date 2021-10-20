@@ -46,7 +46,9 @@ float: right;
 }
 
 
-
+nav {
+  display: block;
+}
 
 
 #btn-salirsession {

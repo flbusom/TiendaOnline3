@@ -43,25 +43,34 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 <body>
 
 
+    <nav class="menu">
+    <ul>
+        <li><a href="admin.php">Admin</a></li>
+        <li><a href="#">Bienvenido/a a tu Home</a></li>
+        <li><a href="logout.php">Cerrar Sesión</a></li>
+    </ul>
+    </nav>
 
 
 
+<!-- 
     <p id = "btnadmin">
       
         <a href="admin.php" class="btn btn-danger">Admin</a>
     </p>
 
 
-    <p id = "btnbienvenido">
+    <div id = "btnbienvenido">
       
-        <h3><?php echo htmlspecialchars($username); ?></he>
-    </p>
+        <h3><?php echo htmlspecialchars($user_id); ?></he>
+    </div>
 
 
-    <p id = "btncerrar">
+    <div id = "btncerrar">
       
         <a href="logout.php" class="btn btn-danger">Cerrar sesión</a>
-    </p>
+    </div> 
+-->
 
 
 
