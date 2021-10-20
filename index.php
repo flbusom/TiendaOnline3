@@ -54,7 +54,7 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 
     <p id = "btnbienvenido">
       
-        <h3>Cerrar sesión</he>
+        <h3><?php echo htmlspecialchars($username); ?></he>
     </p>
 
 
