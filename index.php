@@ -33,9 +33,7 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 
 <header >
 
-    <!-- <div class="header_left">
-       <h1><b><?php echo htmlspecialchars($user_id); ?></b></h1>   
-   </div>  -->
+    
 
     <div class="header_right">
         <h1><b><?php echo htmlspecialchars($user_id); ?></b></h1>
@@ -49,14 +47,12 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
         <a href="logout.php" class="btn btn-danger">Cerrar sesión</a>
     </p>
 
+    
     <p id = "btncerrar">
       
         <a href="admin.php" class="btn btn-danger">Admin</a>
     </p>
 
-   <!--  <p id="btncerrar">
-        <button id="btn-salirsession"><a style="text-decoration:none" href="logout.php" class="btn btn-danger">Salir de la session</a></button>
-    </p> -->
 
 
 </body>
