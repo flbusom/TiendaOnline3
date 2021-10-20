@@ -42,15 +42,25 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 </header>
 <body>
 
+
+
+
+
+    <p id = "btnadmin">
+      
+        <a href="admin.php" class="btn btn-danger">Admin</a>
+    </p>
+
+
+    <p id = "btnbienvenido">
+      
+        <h3>Cerrar sesión</he>
+    </p>
+
+
     <p id = "btncerrar">
       
         <a href="logout.php" class="btn btn-danger">Cerrar sesión</a>
-    </p>
-
-    
-    <p id = "btncerrar">
-      
-        <a href="admin.php" class="btn btn-danger">Admin</a>
     </p>
 
 

@@ -33,6 +33,17 @@ float: right;
 	text-align: right;
 }
 
+#btnbienvenido {
+
+  text-align: center;
+}
+
+
+#btnadmin {
+  text-align: left;
+
+}
+
 
 #btn-salirsession {
     background-color: #e02f0f;
