@@ -62,7 +62,7 @@ if(!isset($_COOKIE["userCookie"]) && (!isset($_COOKIE["userToken"]))){
 
     <div id = "btnbienvenido">
       
-        <h3><?php echo htmlspecialchars($user_id); ?></he>
+        <h3><?php echo htmlspecialchars($user_id); ?></h3>
     </div>
 
 
