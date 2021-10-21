@@ -29,7 +29,7 @@ float: right;
 
 
 #btnadmin {
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -43,6 +43,7 @@ float: right;
 #btncerrar {
 
 	text-align: right;
+  padding-right: 100px;
 }
 
 
