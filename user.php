@@ -21,9 +21,9 @@
     <nav><ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Carrito</a></li>
-            <li><a href="logout.php" class="btn btn-danger">Cerrar sesión</a></li>
+            <li><a href="#">Contacto <img src="/img/telefono.png" width="20" height="20" alt=""></a></li>
+            <li><a href="#">Carrito <img src="/img/carrito.png" width="20" height="20" alt=""></a></li>
+            <li><a href="logout.php" class="btn btn-danger">Cerrar sesión <img src="/img/cerrar-sesion.png" width="20" height="20" alt=""></a></li>
         </ul></nav>
 
 
