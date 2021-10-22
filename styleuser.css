@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:2px;
+    box-sizing:border-box;
+    font-size:10;}
+            
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:18px;
+    } 
+
+nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:rgb(207, 252, 193);
+    border:1px solid rgb(6, 49, 6);
+    text-align:center;
+    color:black;
+    }
+
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
