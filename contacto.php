@@ -21,7 +21,7 @@
 			</div>
 			<div id="menu"> 
 				<ul>
-					<li><a href="index.html">Inicio</a></li>
+					<li><a href="admin.php">Inicio</a></li>
 					<li><a href="nosotros.html">Nosotros</a></li>
 					<li><a href="servicios.html">Servicios</a></li>
 					<li><a href="clientes.html">Clientes</a></li>
