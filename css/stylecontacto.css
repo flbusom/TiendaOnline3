@@ -4,11 +4,12 @@ body{
 	font-family: 'calibri light'
 }
 
+/* 
 #linea{
 	width: 100%;
 	height: 5px;
-	background: #086A87
-}
+	background: #42f3ea
+} */
 
 #header{
 	width: 100%;
@@ -69,12 +70,15 @@ body{
 	background: #0A2A29;
 	color: #04B4AE
 }
+
+
+
 /*---------------presentacion------------*/
 
 #presentacion{
 	width: 100%;
 	height: auto;overflow: hidden;
-	background: #064154;
+	background: #064854;
 	padding: 10px 0px;
 }
 #presentacion #centro2{

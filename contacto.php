@@ -17,7 +17,7 @@
 		<div id="centro1">
 			<div id="logo">
 				<h2>Tienda Online</h2><br>
-				<p>Los mejores productos para tu PC</p>
+				<!-- <p>Los mejores productos para tu PC</p> -->
 			</div>
 			<div id="menu"> 
 				<ul>
@@ -58,13 +58,13 @@
 
 				<div id="derecha">
 					<form action="#" method="POST">
-						<input type="text" name="nombre" placeholder="Ingresa tu nombre" class="nombre-mensaje">
+						<input type="text" name="nombre" placeholder="Nombre completo" class="nombre-mensaje">
 						<br>
-						<input type="email" name="correo" placeholder="Ingresa tu coreo" class="email-asunto">
+						<input type="email" name="correo" placeholder="Email" class="email-asunto">
 
-						<input type="text" name="asunto" placeholder="Ingresa el asunto" class="email-asunto"><br>
+						<input type="text" name="asunto" placeholder="Asunto" class="email-asunto"><br>
 
-						<textarea name="mensaje" placeholder="Ingrese su mensaje " class="nombre-mensaje"></textarea><br>
+						<textarea name="mensaje" placeholder="Cuentanos más " class="nombre-mensaje"></textarea><br>
 
 						<input type="submit" name="enviar" value="Enviar consulta">
 					</form>
@@ -84,7 +84,7 @@
 	<div id="pie">
 		<div id="centro-pie">
 			<p>
-				(c) Todos los derechos reservados - 
+                © Todos los derechos reservados - 
 				Diseñado por Ferran Latorre</a> - 2021
 			</p>
 		</div>
