@@ -50,7 +50,7 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<br>
 						Telélefono: <strong>973 111 222</strong><br>
-						Celular: <strong>654 321 987</strong><br>
+						Movil: <strong>654 321 987</strong><br>
 						Email: <strong><a href="mailto: juanventura200@gmail.com" class="email-contacto">f@gmail.com</a></strong>
 					</p>
 				</div>	
@@ -71,13 +71,9 @@
 				</div>
 
 				<div id="mapa">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.205886558182!2d-88.16743098199365!3d13.461402473858934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x72953df7e0502a9b!2sMetrocentro+San+Miguel!5e0!3m2!1ses-419!2ssv!4v1564899753613!5m2!1ses-419!2ssv" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-				
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7532.184389878265!2d0.6027061280369955!3d41.57335924331669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a6df8ec753a553%3A0x724c889aa803a9cd!2zMjUxNzEgQWxiYXTDoHJyZWMsIEzDqXJpZGE!5e1!3m2!1ses!2ses!4v1635182247992!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>				
 
 			</div>
-
-			
 		</div>
 	</div>
 
