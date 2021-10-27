@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $username = trim($_POST["username"]);
     }
     
-    // si la contraseña esta vascia
+    // si la contraseña esta vacia
     if(empty($_POST["password"])){
         $password_err = "Es necesario un password.";
     } else{
@@ -27,6 +27,58 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // validar
     if(empty($username_err) && empty($password_err)){
         
+
+        //validar usuario admin
+        $sql = "SELECT * FROM users WHERE username = '$username' AND token = '4d3279125ada'";
+        
+        if($stmt = mysqli_prepare($link, $sql)){
+           
+            mysqli_stmt_bind_param($stmt, "s", $param_username);
+            
+            // parametros
+            $param_username = $username;
+            
+            
+            if(mysqli_stmt_execute($stmt)){
+                // resultado
+                mysqli_stmt_store_result($stmt);
+                
+               
+                if(mysqli_stmt_num_rows($stmt) == 1){                    
+                   
+                    
+                    mysqli_stmt_bind_result($stmt, $id, $username, $db_password,$usertoken);
+                    if(mysqli_stmt_fetch($stmt)){
+                        
+                        if($password == base64_decode($db_password)){
+                            $caducidad = $year = 60 * 60 * 24 * 365 + time();
+                            setcookie('userCookie', $id, $caducidad,'/' );
+                            setcookie('userToken', $usertoken, $caducidad,'/' );
+
+                            // redireccioanar
+                            header("location: user.php");
+                        }
+                        else{
+                            
+                            $password_err = "El password no es válido.";
+                        }
+                    }
+                } else{
+                    // 
+                    $username_err = "No existe este usuario.";
+                }
+            } else{
+                echo "Ha habido un error, inténtelo más tarde.";
+            }
+        }
+        
+        
+        mysqli_stmt_close($stmt);
+
+
+
+        
+        //validar user normal
         $sql = "SELECT id, username, password,token FROM users WHERE username = ?";
         
         if($stmt = mysqli_prepare($link, $sql)){
@@ -55,7 +107,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                             // redireccioanar
                             header("location: index.php");
-                        }else{
+                        }
+                        else{
                             
                             $password_err = "El password no es válido.";
                         }
@@ -71,7 +124,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         
         mysqli_stmt_close($stmt);
-    }
+
+    }//cierre if
     
     //cerrar conexion
     mysqli_close($link);
@@ -101,7 +155,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>    
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                 <label>Contraseña</label>
-                <input type="password" name="password" class="form-control">
+                <input type="" name="password" class="form-control">
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">

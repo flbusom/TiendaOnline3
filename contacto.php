@@ -16,7 +16,7 @@
 	<div id="header">
 		<div id="centro1">
 			<div id="logo">
-				<h2>Tienda Online</h2><br>
+				<h2 id="titulocontacto"><a href="user.php">Tienda Online</h2><br>
 				<!-- <p>Los mejores productos para tu PC</p> -->
 			</div>
 			<div id="menu"> 
