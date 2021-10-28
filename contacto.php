@@ -16,16 +16,17 @@
 	<div id="header">
 		<div id="centro1">
 			<div id="logo">
-				<h2 id="titulocontacto"><a href="user.php">Tienda Online</h2><br>
-				<!-- <p>Los mejores productos para tu PC</p> -->
+				
+				<h2><a href="user.php"><img src="/img/logo.png" width="100" height="100" alt=""></a></h2>
+				
 			</div>
 			<div id="menu"> 
 				<ul>
 					<li><a href="admin.php">Inicio</a></li>
+					<li><a href="servicios.html">Productos</a></li>
 					<li><a href="nosotros.html">Nosotros</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="clientes.html">Clientes</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<!-- <li><a href="clientes.html">Clientes</a></li> -->
+					<li><a href="logout.php">Cerrar Sesión</a></li>
 				</ul>
 			</div>
 		</div>
@@ -35,11 +36,11 @@
 		<div id="centro3">
 			<h2>
 				<em class="encabezados t1">Contacta con</em> 
-				<em class="encabezados t2">Nosotros</em>
+				<em class="encabezados t2">SoluTec</em>
 			</h2>
 			<p class="descripcion-pagina">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+				SoluTec es tu empresa de confianza, con todo el soporte informatico para clientes particulares y empresas. 
+				También esncontraras los mejores productos al mejor precio.
 			</p>
 			<hr>
 
@@ -81,7 +82,7 @@
 		<div id="centro-pie">
 			<p>
                 © Todos los derechos reservados - 
-				Diseñado por Ferran Latorre</a> - 2021
+				Diseñado por SoluTec</a> - 2021
 			</p>
 		</div>
 	</div>
