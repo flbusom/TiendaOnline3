@@ -28,7 +28,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($username_err) && empty($password_err)){
         
 
-        //validar usuario admin
+       /*  //validar usuario admin
         $sql = "SELECT * FROM users WHERE username = '$username' AND token = '4d3279125ada'";
         
         if($stmt = mysqli_prepare($link, $sql)){
@@ -74,7 +74,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         
         
         mysqli_stmt_close($stmt);
-
+ */
 
 
         
