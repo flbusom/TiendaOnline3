@@ -33,7 +33,7 @@
 		</div>
 	</div>
 
-	
+
 	<div id="contenidos-paginas">
 		<div id="centro3">
 			<h2>
@@ -50,8 +50,9 @@
 				
 				<div id="izquierda">
 					<p class="descripcion-pagina texto-contacto">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<br>
+						Para contactar con nosotros puede mediante telefono fijo, movil o email.
+						cualquier duda que tengas no dudes en contactar con nosotros.
+						<br>
 						Telélefono: <strong>973 111 222</strong><br>
 						Movil: <strong>654 321 987</strong><br>
 						Email: <strong><a href="mailto: juanventura200@gmail.com" class="email-contacto">f@gmail.com</a></strong>
