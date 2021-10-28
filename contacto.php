@@ -13,6 +13,7 @@
 <body>
     
 <div id="linea"></div>
+
 	<div id="header">
 		<div id="centro1">
 			<div id="logo">
@@ -25,13 +26,14 @@
 					<li><a href="admin.php">Inicio</a></li>
 					<li><a href="servicios.html">Productos</a></li>
 					<li><a href="nosotros.html">Nosotros</a></li>
-					<!-- <li><a href="clientes.html">Clientes</a></li> -->
+					<li><a href="contacto.php">Contacto</a></li>
 					<li><a href="logout.php">Cerrar Sesión</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 
+	
 	<div id="contenidos-paginas">
 		<div id="centro3">
 			<h2>
@@ -65,7 +67,7 @@
 
 						<input type="text" name="asunto" placeholder="Asunto" class="email-asunto"><br>
 
-						<textarea name="mensaje" placeholder="Cuentanos más " class="nombre-mensaje"></textarea><br>
+						<textarea name="mensaje" placeholder="Cuentanos más..." class="nombre-mensaje"></textarea><br>
 
 						<input type="submit" name="enviar" value="Enviar consulta">
 					</form>
