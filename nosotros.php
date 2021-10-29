@@ -52,7 +52,7 @@
                 
                
                 
-                <div class="tz-gallery">
+                <div class="gallery">
                             <div class="row">
 
                                     <div class="col-sm-6 col-md-4">
@@ -100,6 +100,17 @@
 		</div>
 	</div>
 
+
+                <div class="galeria">
+                    <input type="radio" name="navegacion" id="_1" checked>
+                    <input type="radio" name="navegacion" id="_2">
+                    <input type="radio" name="navegacion" id="_3">
+                    <input type="radio" name="navegacion" id="_4"> 
+                    <img src="/img/fotogaleria1.jpg" width="300" height="300" alt="Galeria 1" />
+                    <img src="/img/fotogaleria2.jpg" width="300" height="300" alt="Galeria 2"  />
+                    <img src="/img/fotogaleria3.jpg" width="300" height="300" alt="Galeria 3" />
+                    <img src="/img/fotogaleria4.jpg" width="300" height="300" alt="Galeria 4" />
+                </div>
 
 
 
