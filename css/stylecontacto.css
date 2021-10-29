@@ -78,10 +78,10 @@ body{
 }
 
 
-#header #menu ul li a:hover{
-	background: #e2ebea;
-	color: #fcfcfc
-}
+/* #header #menu ul li a:hover{
+	background: #95eee4;
+	color: #95eee4
+} */
 
 
 
@@ -441,3 +441,24 @@ input[type="submit"]{
 	height: auto; overflow: hidden;
 	padding: 20px;
 }
+
+
+
+/* css galeria imagenes nosotros */
+
+.galeria img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+  }
+
+/* 
+  .galeria img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+  } */

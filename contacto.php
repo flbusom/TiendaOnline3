@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/stylecontacto.css">
-    <title>Contacto</title>
+    <title>Contacto | SoluTec</title>
 </head>
 <body>
     
@@ -25,7 +25,7 @@
 				<ul>
 					<li><a href="admin.php">Inicio</a></li>
 					<li><a href="servicios.html">Productos</a></li>
-					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="nosotros.php">Nosotros</a></li>
 					<li><a href="contacto.php">Contacto</a></li>
 					<li><a href="logout.php">Cerrar Sesión</a></li>
 				</ul>
