@@ -50,7 +50,7 @@
 
 
                 
-               
+               <!-- 
                 
                 <div class="gallery">
                             <div class="row">
@@ -81,17 +81,40 @@
 
 
                             </div>
-                    </div>
+                    </div> -->
+
+				
+
+				<h2>Nuestras instalaciones</h2>
+
+				<div class="galeria1">
+                    <img src="/img/instalacion1.jpg" width="300" height="300" alt="Instalacion 1"/>
+                    <img src="/img/instalacio2.jpeg" width="300" height="300" alt="Instalacion 2"/>
+                    <img src="/img/instalacio3.jpeg" width="300" height="300" alt="Instalacion 3"/>
+                    <img src="/img/instalacio4.jpeg" width="300" height="300" alt="Instalacion 4"/>
+                </div>
+
+				<br>
+
+				<h2>Nuestros productos</h2>
+
+				<div class="galeria1">
+                    <img src="/img/fotogaleria1.jpg" width="300" height="300" alt="Galeria 1"/>
+                    <img src="/img/fotogaleria2.jpg" width="300" height="300" alt="Galeria 2"/>
+                    <img src="/img/fotogaleria3.jpg" width="300" height="300" alt="Galeria 3"/>
+                    <img src="/img/fotogaleria4.jpg" width="300" height="300" alt="Galeria 4"/>
+                </div>
 
 
+				<br>
 
-
-
-                    
+                <h2>Nuestros contacto</h2>
 				<div id="izquierda">
 					<p class="descripcion-pagina texto-contacto">
                         
-						Telélefono: <strong>973 111 222</strong> Movil: <strong>654 321 987</strong> Email: <strong><a href="mailto: juanventura200@gmail.com" class="email-contacto">f@gmail.com</a></strong>
+						Telélefono: <strong>973 111 222</strong> 
+						Movil: <strong>654 321 987</strong> 
+						<!-- Email: <strong>f@gmail.com</strong> -->
 					</p>
 				</div>
 
@@ -99,18 +122,6 @@
 			</div>
 		</div>
 	</div>
-
-
-                <div class="galeria">
-                    <input type="radio" name="navegacion" id="_1" checked>
-                    <input type="radio" name="navegacion" id="_2">
-                    <input type="radio" name="navegacion" id="_3">
-                    <input type="radio" name="navegacion" id="_4"> 
-                    <img src="/img/fotogaleria1.jpg" width="300" height="300" alt="Galeria 1" />
-                    <img src="/img/fotogaleria2.jpg" width="300" height="300" alt="Galeria 2"  />
-                    <img src="/img/fotogaleria3.jpg" width="300" height="300" alt="Galeria 3" />
-                    <img src="/img/fotogaleria4.jpg" width="300" height="300" alt="Galeria 4" />
-                </div>
 
 
 

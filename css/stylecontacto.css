@@ -271,7 +271,8 @@ body{
 }
 
 .descripcion-pagina{
-	color: #848484;
+	color: black;
+	text-align: center;
 }
 
 .texto-nosotros{
@@ -380,10 +381,13 @@ hr{
 	height: auto; overflow: hidden;
 	border: 0px solid;
 	float: left;
+	text-align: center;
+	color: black;
 }
 
 .texto-contacto{
 	text-align: left;
+	color: black;
 }
 
 .email-contacto{
@@ -394,6 +398,10 @@ hr{
 .email-contacto:hover{
 	text-decoration: underline;
 }
+
+
+
+
 
 #derecha{
 	width: 490px;
@@ -443,9 +451,10 @@ input[type="submit"]{
 }
 
 
-
+ 
 /* css galeria imagenes nosotros */
 
+/* 
 .galeria {
 	height: calc( 300px + 3em);
 	width: 300px;
@@ -454,15 +463,15 @@ input[type="submit"]{
 	position: relative;  
   }
   
-  .galeria img {
+.galeria img {
 	position: absolute;
 	top: 0;
 	left: 0;
 	opacity: 0;
 	transition: opacity 3s;
-  }
+  } 
   
-  .galeria input[type=radio] {
+.galeria input[type=radio] {
 	position: relative;
 	bottom: calc(-300px - 1.5em);
 	left: .5em;
@@ -483,3 +492,6 @@ input[type="submit"]{
   .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
 	opacity: 1;
   }
+ 
+  */
+
