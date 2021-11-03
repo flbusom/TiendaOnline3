@@ -131,7 +131,7 @@
 		<div id="centro-pie">
 			<p>
                 © Todos los derechos reservados - 
-				Diseñado por SoluTec</a> - 2021
+				Diseñado por SoluTec </a> - 2021
 			</p>
 		</div>
 	</div>
