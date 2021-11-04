@@ -125,7 +125,8 @@
                         
 						Telélefono: <strong>973 111 222</strong><br><br>
 						Movil: <strong>654 321 987</strong><br><br>
-						Email: <strong>f@gmail.com</strong>
+						Email: <strong>f@gmail.com</strong><br>
+						<img src="/img/imgcontacto.png" width="400" height="220" alt="imagen contacto"/>
 				</p>
 				</div>
 
