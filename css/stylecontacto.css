@@ -18,7 +18,7 @@ body{
 }
 
 #header #centro1{
-	width: 800px;
+	width: 1650px;
 	height: auto; 
 	overflow: hidden;
 	border: 0px solid #fff;
@@ -52,7 +52,7 @@ body{
 
 /*----------------menu---------------------*/
 #header #menu{
-	width: 580px;
+	width: 700px;
 	height: auto; 
 	overflow: hidden;
 	border: 0px solid; 
@@ -403,13 +403,14 @@ hr{
 
 
 
-/* pagina nosotros recuadro contacto */
+/* pagina nosotros recuadro nuestro contacto */
 #centro{
-	width: 710px;
+	width: 600px;
 	border: 1px solid;
 	height: 300px; 
 	overflow: hidden;
 	float: right;
+	margin-right: 100px;
 }
 
 
@@ -423,6 +424,7 @@ hr{
 	text-align: center;
 	color: black;
 	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 

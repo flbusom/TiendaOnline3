@@ -25,6 +25,7 @@
 					<li><a href="servicios.html">Productos</a></li>
 					<li><a href="nosotros.php">Nosotros</a></li>
 					<li><a href="contacto.php">Contacto</a></li>
+					<li><a href="contacto.php">Perfil</a></li>
 					<li><a href="logout.php">Cerrar Sesión</a></li>
 				</ul>
 			</div>
@@ -45,43 +46,6 @@
 			<hr>
 
 			<div id="contenido-nosotros">
-					
-
-
-
-                
-               <!-- 
-                
-                <div class="gallery">
-                            <div class="row">
-
-                                    <div class="col-sm-6 col-md-4">
-                                        <a class="lightbox" href="/img/fotogaleria1.jpg">
-                                            <img src="/img/fotogaleria1.jpg" width="300" height="300" alt="">
-                                        </a>
-                                    </div>
-
-                                    <div class="col-sm-6 col-md-4">
-                                        <a class="lightbox" href="/img/fotogaleria2.png">
-                                            <img src="/img/fotogaleria2.jpg" width="300" height="300" alt="">
-                                        </a>
-                                    </div>
-
-                                    <div class="col-sm-6 col-md-4">
-                                        <a class="lightbox" href="/img/fotogaleria3.png">
-                                            <img src="/img/fotogaleria3.jpg" width="300" height="300" alt="">
-                                        </a>
-                                    </div>
-
-                                    <div class="col-sm-6 col-md-4">
-                                        <a class="lightbox" href="/img/fotogaleria4.png">
-                                            <img src="/img/fotogaleria4.jpg" width="300" height="300" alt="">
-                                        </a>
-                                    </div>
-
-
-                            </div>
-                    </div> -->
 
 				
 
@@ -109,24 +73,17 @@
 				<br>
 
                 <h2>Nuestros contacto</h2>
-				<!-- <div id="izquierda">
-					<p class="descripcion-pagina texto-contacto">
-                        
-						Telélefono: <strong>973 111 222</strong> 
-						Movil: <strong>654 321 987</strong> 
-						Email: <strong>f@gmail.com</strong>
-					</p>
-				</div> -->
 
 
+				<br>
 
 				<div id="centro">
 				<p class="descripcion-paginanosotros texto-contactonosotros">
                         
-						Telélefono: <strong>973 111 222</strong><br><br>
+						Teléfono: <strong>973 111 222</strong><br><br>
 						Movil: <strong>654 321 987</strong><br><br>
 						Email: <strong>f@gmail.com</strong><br>
-						<img src="/img/imgcontacto.png" width="400" height="220" alt="imagen contacto"/>
+						<img src="/img/imgcontacto.png" width="400" height="180" alt="imagen contacto"/>
 				</p>
 				</div>
 
@@ -143,8 +100,7 @@
 	<div id="pie">
 		<div id="centro-pie">
 			<p>
-                © Todos los derechos reservados - 
-				Diseñado por SoluTec </a> - 2021
+                © Todos los derechos reservados - Diseñado por SoluTec </a> - 2021
 			</p>
 		</div>
 	</div>

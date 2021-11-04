@@ -27,6 +27,7 @@
 					<li><a href="servicios.html">Productos</a></li>
 					<li><a href="nosotros.php">Nosotros</a></li>
 					<li><a href="contacto.php">Contacto</a></li>
+					<li><a href="contacto.php">Perfil</a></li>
 					<li><a href="logout.php">Cerrar Sesión</a></li>
 				</ul>
 			</div>
@@ -53,7 +54,7 @@
 						Para contactar con nosotros puede mediante telefono fijo, movil o email.
 						cualquier duda que tengas no dudes en contactar con nosotros.
 						<br>
-						Telélefono: <strong>973 111 222</strong><br>
+						Teléfono: <strong>973 111 222</strong><br>
 						Movil: <strong>654 321 987</strong><br>
 						Email: <strong><a href="mailto: juanventura200@gmail.com" class="email-contacto">f@gmail.com</a></strong>
 					</p>
