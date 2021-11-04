@@ -391,7 +391,7 @@ hr{
 }
 
 .email-contacto{
-	color: #848484;
+	color: black;
 	text-decoration: none;
 }
 
@@ -403,6 +403,33 @@ hr{
 
 
 
+/* pagina nosotros recuadro contacto */
+#centro{
+	width: 710px;
+	border: 1px solid;
+	height: 200px; 
+	overflow: hidden;
+	float: right;
+}
+
+
+.descripcion-paginanosotros{
+	color: black;
+	text-align: center;
+}
+
+
+.texto-contactonosotros{
+	text-align: left;
+	color: black;
+}
+
+
+
+
+
+
+/* formulario de contacto */
 #derecha{
 	width: 490px;
 	border: 1px solid;

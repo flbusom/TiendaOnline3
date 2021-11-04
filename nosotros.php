@@ -109,17 +109,29 @@
 				<br>
 
                 <h2>Nuestros contacto</h2>
-				<div id="izquierda">
+				<!-- <div id="izquierda">
 					<p class="descripcion-pagina texto-contacto">
                         
 						Telélefono: <strong>973 111 222</strong> 
 						Movil: <strong>654 321 987</strong> 
-						<!-- Email: <strong>f@gmail.com</strong> -->
+						Email: <strong>f@gmail.com</strong>
 					</p>
+				</div> -->
+
+
+
+				<div id="centro">
+				<p class="descripcion-paginanosotros texto-contactonosotros">
+                        
+						Telélefono: <strong>973 111 222</strong><br><br>
+						Movil: <strong>654 321 987</strong><br><br>
+						Email: <strong>f@gmail.com</strong>
+				</p>
 				</div>
 
 
 			</div>
+
 		</div>
 	</div>
 
