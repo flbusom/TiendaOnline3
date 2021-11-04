@@ -70,7 +70,7 @@
 				<br><br>
 				
 
-                <h2>Nuestros contacto</h2>
+                <h2>Nuestros contactos</h2>
 
 					<div id="centro">
 						<p class="descripcion-paginanosotros texto-contactonosotros">	

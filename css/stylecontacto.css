@@ -49,7 +49,10 @@ body{
 
 
 
-
+/* titulo h2 */
+h2 {
+	font-family: 'Times New Roman', Times, serif;
+}
 
 /*----------------menu---------------------*/
 #header #menu{
