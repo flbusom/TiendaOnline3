@@ -39,63 +39,54 @@
 				<em class="encabezados t1">Sobre</em> 
 				<em class="encabezados t2">Nosotros</em>
 			</h2>
-			<p class="descripcion-pagina">
-				SoluTec es tu empresa de confianza, con todo el soporte informatico para clientes particulares y empresas. 
-				También esncontraras los mejores productos al mejor precio.
-			</p>
+				<p class="descripcion-pagina">
+					SoluTec es tu empresa de confianza, con todo el soporte informatico para clientes particulares y empresas. 
+					También esncontraras los mejores productos al mejor precio.
+				</p>
 			<hr>
 
 			<div id="contenido-nosotros">
 
-				
-
 				<h2>Nuestras instalaciones</h2>
 
-				<div class="galeria1">
-                    <img src="/img/instalacion1.jpg" width="300" height="300" alt="Instalacion 1"/>
-                    <img src="/img/instalacio2.jpeg" width="300" height="300" alt="Instalacion 2"/>
-                    <img src="/img/instalacio3.jpeg" width="300" height="300" alt="Instalacion 3"/>
-                    <img src="/img/instalacio4.jpeg" width="300" height="300" alt="Instalacion 4"/>
-                </div>
+					<div class="galeria1">
+						<img src="/img/instalacion1.jpg" width="300" height="300" alt="Instalacion 1"/>
+						<img src="/img/instalacio2.jpeg" width="300" height="300" alt="Instalacion 2"/>
+						<img src="/img/instalacio3.jpeg" width="300" height="300" alt="Instalacion 3"/>
+						<img src="/img/instalacio4.jpeg" width="300" height="300" alt="Instalacion 4"/>
+					</div>
 
 				<br>
 
 				<h2>Nuestros productos</h2>
 
-				<div class="galeria1">
-                    <img src="/img/fotogaleria1.jpg" width="300" height="300" alt="Galeria 1"/>
-                    <img src="/img/fotogaleria2.jpg" width="300" height="300" alt="Galeria 2"/>
-                    <img src="/img/fotogaleria3.jpg" width="300" height="300" alt="Galeria 3"/>
-                    <img src="/img/fotogaleria4.jpg" width="300" height="300" alt="Galeria 4"/>
-                </div>
+					<div class="galeria1">
+						<img src="/img/fotogaleria1.jpg" width="300" height="300" alt="Galeria 1"/>
+						<img src="/img/fotogaleria2.jpg" width="300" height="300" alt="Galeria 2"/>
+						<img src="/img/fotogaleria3.jpg" width="300" height="300" alt="Galeria 3"/>
+						<img src="/img/fotogaleria4.jpg" width="300" height="300" alt="Galeria 4"/>
+					</div>
 
-
-				<br>
-				<br>
-
+				<br><br>
+				
 
                 <h2>Nuestros contacto</h2>
 
-
-				<div id="centro">
-				<p class="descripcion-paginanosotros texto-contactonosotros">
-                        
-						Teléfono: <strong>973 111 222</strong><br><br>
-						Movil: <strong>654 321 987</strong><br><br>
-						Email: <strong>f@gmail.com</strong><br>
-						<img src="/img/imgcontacto.png" width="400" height="180" alt="imagen contacto"/>
-				</p>
-				</div>
+					<div id="centro">
+						<p class="descripcion-paginanosotros texto-contactonosotros">	
+								Teléfono: <strong>973 111 222</strong><br><br>
+								Movil: <strong>654 321 987</strong><br><br>
+								Email: <strong>f@gmail.com</strong><br>
+								<img src="/img/imgcontacto.png" width="400" height="180" alt="imagen contacto"/>
+						</p>
+					</div>
 
 
 			</div>
 
 		</div>
+
 	</div>
-
-
-
-    
 
 	<div id="pie">
 		<div id="centro-pie">
