@@ -1,18 +1,12 @@
 <?php
 
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'usbw');
-define('DB_NAME', 'registerlogin');
 
-
-/* conexio base de datos */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME); /* cambiar $link  a $connect */
-
+/* conexio base de datos */ /* cambiar $link  a $connect */
+$link = mysqli_connect('localhost', 'root', 'usbw', 'registerlogin');
 
 // Comprobar conexion
 if($link === false){
-	die("ERROR: Could not connect. " . mysqli_connect_error());
+	die("ERROR: No se pudo conectar. " . mysqli_connect_error());
 }
 
 //funcion conectar base de datos

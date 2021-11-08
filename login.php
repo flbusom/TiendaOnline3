@@ -19,7 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     // si la contraseña esta vacia
     if(empty($_POST["password"])){
-        $password_err = "Es necesario un password.";
+        $password_err = "Es necesario una contraseña.";
     } else{
         $password = trim($_POST["password"]);
     }
@@ -148,19 +148,23 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <h2>Iniciar Sesión</h2>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                 <label>Email</label>
                 <input type="email" name="username" class="form-control" value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_err; ?></span>
-            </div>    
+            </div>   
+
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                 <label>Contraseña</label>
                 <input type="" name="password" class="form-control">
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>
+
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Iniciar Sesión">
             </div>
+
             <p>No tienes una cuenta? <a href="register.php">Registrarse</a>.</p>
         </form>
 
