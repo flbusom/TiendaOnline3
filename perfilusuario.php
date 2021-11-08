@@ -1,5 +1,9 @@
 <?php
+    require_once "config.php";
+    
+    session_start();
 
+  /*   $username = $_SESSION['username'] */
 
 
 ?>
@@ -62,28 +66,46 @@
             <div class="col-md-6">
                 <form action="">
                     <?php
-                        $sqp = "SELECT * FROM users WHERE"
+                        $currentUser = $_SESSION['username'];
+                        $sql = "SELECT * FROM users WHERE username ='$currentUser'";
+
+                        $gotResults = mysqli_query($link, $sql);
+
+                        if($gotResults){
+                            if(mysqli_num_rows($gotResults)>0){
+                                while($row = mysqli_fetch_Array($gotResults)){
+                                   /*  print_r($row['username']); */
+                                   ?>
+
+                                            <div class="form-group">
+                                            <input type="email" name="updateUsername" class="form-control" value="<?php echo $row['username']; ?>">
+                                            </div>
+
+                                            <br>
+
+                                            <div class="form-group">
+                                            <input type="password" name="userPassword" class="form-control" value="<?php echo $row['password']; ?>">
+                                            </div>
+
+                                            <br>
+
+                                            <div class="form-group">
+                                            <input type="file" name="userImage" class="form-control">
+                                            </div>
+
+                                            <br>
+
+                                            <div class="form-group">
+                                            <input type="submit" name="update" class="form-control" value="Actualizar">
+                                            </div>
+
+                                   <?php
+                                }
+                            }
+                        }
                     ?>
-                    <div class="form-group">
 
-                        <input type="text" name="updateUsername" class="form-control" value="">
-                    </div>
-
-                    <div class="form-group">
-
-                        <input type="email" name="userEmail" class="form-control" value="Email">
-                    </div>
-
-                    <div class="form-group">
-                        
-                        <input type="file" name="userImage" class="form-control">
-                    </div>
-
-                    <div class="form-group">
-
-                        <input type="submit" name="update" class="form-control" value="Actualizar">
-                    </div>
-
+                   
                 </form>
             </div>
         </div>

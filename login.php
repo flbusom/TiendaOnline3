@@ -1,6 +1,6 @@
 <?php
 
-// archiu configuracio
+//archiu configuracio
 require_once "config.php";
 
 
