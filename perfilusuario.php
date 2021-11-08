@@ -14,6 +14,14 @@
     <title>Perfil | SoluTec</title>
 </head>
 <body>
+
+    <!-- <header>
+
+        <?php
+            include('')
+
+        ?>
+    </header> -->
     
 <div id="linea"></div>
 
@@ -43,15 +51,43 @@
                 <h2>
                     <em class="encabezados t1">Perfil</em> 
                     <em class="encabezados t2">Usuario</em>
-                </h2>
-
-                
-
-		
-
-			
+                </h2>	
 		</div>
 	</div>
+
+
+    <div align="center">
+
+        <div class="row">
+            <div class="col-md-6">
+                <form action="">
+                    <?php
+                        $sqp = "SELECT * FROM users WHERE"
+                    ?>
+                    <div class="form-group">
+
+                        <input type="text" name="updateUsername" class="form-control" value="">
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="email" name="userEmail" class="form-control" value="Email">
+                    </div>
+
+                    <div class="form-group">
+                        
+                        <input type="file" name="userImage" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="submit" name="update" class="form-control" value="Actualizar">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
