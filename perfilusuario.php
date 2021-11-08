@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/stylecontacto.css">
-    <title>Contacto | SoluTec</title>
+    <title>Perfil | SoluTec</title>
 </head>
 <body>
     
@@ -38,7 +38,7 @@
 	<div id="contenidos-paginas">
 		<div id="centro3">
 			<h2>
-				<em class="encabezados t1">Contacta con</em> 
+				<em class="encabezados t1">Perfil</em> 
 				<em class="encabezados t2">SoluTec</em>
 			</h2>
 			<p class="descripcion-pagina">

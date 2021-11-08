@@ -25,7 +25,7 @@
 					<li><a href="servicios.html">Productos</a></li>
 					<li><a href="nosotros.php">Nosotros</a></li>
 					<li><a href="contacto.php">Contacto</a></li>
-					<li><a href="contacto.php">Perfil</a></li>
+					<li><a href="perfilusuario.php">Perfil</a></li>
 					<li><a href="logout.php">Cerrar Sesión</a></li>
 				</ul>
 			</div>
