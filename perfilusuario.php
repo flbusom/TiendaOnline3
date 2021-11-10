@@ -66,7 +66,7 @@
             <div class="col-md-6">
                 <form action="">
                     <?php
-                        $currentUser = $_SESSION['username'];
+                        $currentUser = $_SESSION['user'];
                         $sql = "SELECT * FROM users WHERE username ='$currentUser'";
 
                         $gotResults = mysqli_query($link, $sql);
@@ -74,7 +74,7 @@
                         if($gotResults){
                             if(mysqli_num_rows($gotResults)>0){
                                 while($row = mysqli_fetch_Array($gotResults)){
-                                   /*  print_r($row['username']); */
+                                    print_r($row);
                                    ?>
 
                                             <div class="form-group">
@@ -105,12 +105,37 @@
                         }
                     ?>
 
+                    
+
                    
                 </form>
+
+                
             </div>
         </div>
     </div>
 
+    <div class="form-group">
+                                            <input type="email" name="updateUsername" class="form-control" value="<?php echo $row['username']; ?>">
+                                            </div>
+
+                                            <br>
+
+                                            <div class="form-group">
+                                            <input type="password" name="userPassword" class="form-control" value="<?php echo $row['password']; ?>">
+                                            </div>
+
+                                            <br>
+
+                                            <div class="form-group">
+                                            <input type="file" name="userImage" class="form-control">
+                                            </div>
+
+                                            <br>
+
+                                            <div class="form-group">
+                                            <input type="submit" name="update" class="form-control" value="Actualizar">
+                                            </div>
 
 
 
